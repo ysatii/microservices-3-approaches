@@ -198,6 +198,7 @@
 Обоснуйте свой выбор.
 
 ## Решение 3  
+
 Используем стек **Prometheus/VictoriaMetrics + Grafana + Alertmanager** для метрик и алёртов. 
 Сбор с хостов и сервисов обеспечиваем экспортёрами (**node_exporter, cAdvisor, kube-state-metrics**) и метриками приложений (Prometheus client). 
 Grafana предоставляет интерфейс для запросов, агрегаций и дашбордов; Alertmanager — маршрутизацию уведомлений и эскалации.
